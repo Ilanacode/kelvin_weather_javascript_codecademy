@@ -1,0 +1,17 @@
+//declaring the constant variable Kelvin
+const Kelvin = 400;
+//declaring a constant variable that is Celsius, Kelvin minus 273
+const Celsius = Kelvin - 273;
+//declaring a constant variable Fahrenheit.
+const Fahrenheit = Celsius * (9/5) + 32;
+// using .floor methos on Math object to always round the value of Fahrenheit down to an integer
+//declaring the fahrenheit variable, lowercase f
+const fahrenheit = Math.floor(Fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+const Newton = Celsius *(33/100);
+
+const newton = Math.floor(Newton);
+
+console.log(`The temperature is ${newton} degrees Newton.`);
